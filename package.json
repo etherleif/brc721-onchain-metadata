@@ -1,0 +1,34 @@
+{
+  "name": "brc721-onchain-metadata",
+  "version": "1.0.0",
+  "description": "## Introduction of two new Manifests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "showcase": "ts-node src/index.ts",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etherleif/brc721-onchain-metadata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@ethersproject/keccak256": "^5.7.0",
+    "axios": "^1.4.0",
+    "base64-arraybuffer": "^1.0.2",
+    "merkletreejs": "^0.3.10",
+    "sharp": "^0.32.1"
+  }
+}
