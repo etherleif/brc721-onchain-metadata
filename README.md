@@ -26,15 +26,15 @@ In the initial version, the proposal suggests using base64-encoded images integr
 ### MetadataProofManifest
 
 ```
-protocol
-  name: "BRC721"
-  version: string
+  protocol
+    name: "BRC721"
+    version: string
 
-type: "metadataProof"
+  type: "metadataProof"
 
-nftInscriptionId: string
-proof: string
-metaData: JSON string
+  nftInscriptionId: string
+  proof: string
+  metaData: JSON string
 ```
 
 The `MetadataProofManifest` contains the metadata and the corresponding Merkle proof. It includes the protocol details, such as the name and version, along with the `nftInscriptionId`, `proof`, and `metaData` fields.
